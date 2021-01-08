@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Realm.init(this);
-        setRealmConfiguration();//adddddd
+        setRealmConfiguration();//切换到分支  2.0
 
 //        List<PassengerTaskLine> mListline = new ArrayList<PassengerTaskLine>() ;
         RealmList<PassengerTaskLine> mListline = new RealmList<>();
