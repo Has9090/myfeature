@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Realm.init(this);
         setRealmConfiguration();
 
+"tstttt"
 
 //        List<PassengerTaskLine> mListline = new ArrayList<PassengerTaskLine>() ;
         RealmList<PassengerTaskLine> mListline = new RealmList<>();
